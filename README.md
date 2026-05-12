@@ -29,28 +29,47 @@ Training-Only Enhancements: All architectural improvements are implemented in tr
 Outperforms YOLOv10: Demonstrates superior AP (Average Precision) compared to the latest YOLO models while maintaining competitive real-time speeds.
 
 Current Performance Metrics (Trained on Real Data)
+
 Metric,Value
+
 mAP@50:95,0.6326
+
 mAP@50,0.9532
+
 mAP@75,0.6803
+
 mAP_small,0.5904
+
 mAP_medium,0.6329
+
 mAP_large,0.8297
+
 AP50_drone,0.9532
+
 AP50_not_drone,0.9532
 
 Classification Experiment
 
 Additionally, the model was trained on a multi-class classification task as an experiment to verify its versatility beyond detection. The results confirmed high performance across various aircraft types:
+
 Metric,Value
+
 mAP@50:95,0.6831
+
 mAP@50,0.9765
+
 mAP@75,0.7638
+
 mAP_small,0.5903
+
 mAP_medium,0.6788
+
 mAP_large,0.9178
+
 AP50_drone,0.9765
+
 AP50_airplane,0.9765
+
 AP50_helicopter,0.9765
 
 
